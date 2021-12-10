@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5621f1ee7.js" crossorigin="anonymous"></script>
+    <title>Kağan Kalafat</title>
+</head>
+<body>
+    <nav>
+        <div class="name">Kağan Kalafat</div>
+        <div class="socials">
+            <ul>
+                <li> <a href="https://twitter.com/kagan_py" target="_blank"><i class="fab fa-twitter"></i></a> </li>
+                <li> <a href="https://open.spotify.com/user/szc5gswa5hp86jw56mx61k3wx?si=78091f452cb144d4" target="_blank"><i class="fab fa-spotify"></i></a> </li>
+                <li> <a href="https://github.com/kagankalafat" target="_blank"><i class="fab fa-github"></i></a> </li>
+                <li> <a href="https://www.linkedin.com/in/ka%C4%9Fan-g%C3%BCrcan-kalafat-3ab922227/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li> <a href="https://www.instagram.com/kagankalafat/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-section">
+        <div class="texts">
+            <h1>Hi, I'm Kağan</h1>
+            <p>I'm <span class="yellow"> Computer Engineering </span> student <br>
+            and <span class="yellow"> Data Scientist </span> based in <br>
+            İstanbul, Turkey</p>
+        <button> <a href="mailto:kagangurcan.kalafat@gmail.com"> Contact Me </a></button>
+        </div>
+    </div>
+    <section class="about">
+        <div class="about-main">
+            <img src="/personal.jpeg" alt="">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I'm 21 years old Computer Engineering student at Bahcesehir University.
+                    I'm interested in algorithmic trading, machine learning, music analysis, 
+                    user research by using web API services. Also have upper level knowledge 
+                    in Python and Microsoft Office programs, mid tier in C++ and SQL. 
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="projects">
+        <div class="title">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fab fa-spotify"></i>
+                <h3>Music Recommendation System</h3>
+                <p>Creating new Playlist in Spotify that 
+                    contains undiscovered songs
+                    based on two playlist that entered 
+                    by user with using Spotify API 
+                    Services and Python </p>
+            </div>
+            <div class="card">
+                <i class="fas fa-robot"></i>
+                <h3>Algorithmic Cryptocurreny Trading Bot</h3>
+                <p>A bot that fetches data from 
+                    Binance API Services, analyzes 
+                    the data and trades cryptocurrency
+                    according to the consequences of 
+                    algorithm, works 7/24.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-users"></i>
+                <h3>Customer Churn <br>
+                    Analysis</h3>
+                <p>Predicting the potential of customers
+                    to leave the bank membership by
+                    analyzing past and current user
+                    information by machine learning
+                    models.
+                    </p>
+            </div>
+        </div>
+        <p>All the projects can be found on the <a href="https://github.com/kagankalafat" target="_blank" class="git" > Github page.</a> </p>
+    </div>
+
+    <footer>
+        <p>currently available for opportunities, please feel free to <a href="mailto:kagangurcan.kalafat@gmail.com" class="contact"> contact </a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("nav").addClass("black");
+            }else{
+                $("nav").removeClass("black");
+            }
+        });
+    </script>
+</body>
+</html>
